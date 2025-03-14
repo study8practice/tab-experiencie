@@ -1,0 +1,149 @@
+* {
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+	 font-family: "Epilogue";
+}
+ ::selection {
+	 background-color: #986dff;
+	 color: #fff;
+}
+ ul, ol {
+	 list-style: none;
+	 margin: 0;
+	 padding: 0;
+}
+ a {
+	 text-decoration: none;
+}
+ p, h1, h2, h3, h4, h5, h6 {
+	 margin: 0;
+}
+ button, input {
+	 border: 0;
+	 font-family: "Epilogue";
+}
+ button:focus, input:focus {
+	 border: 0;
+}
+ body {
+	 font-family: "Epilogue";
+	 background-color: #fff;
+	 overflow-x: hidden;
+}
+ html {
+	 scroll-behavior: smooth;
+	 font-size: 62.5%;
+}
+ ::-webkit-scrollbar {
+	 width: 8px;
+}
+ ::-webkit-scrollbar-track {
+	 background-color: #040615;
+}
+ ::-webkit-scrollbar-thumb {
+	 background-color: #986dff;
+	 border-radius: 8px;
+}
+ #s-experience {
+	 background-color: #0c0b16;
+	 color: #fff;
+	 padding: 96px 48px;
+}
+ @media screen and (max-width: 992px) {
+	 #s-experience {
+		 padding: 48px 24px;
+	}
+}
+ #s-experience .grid-layout h2 {
+	 padding-bottom: 24px;
+	 color: #fff;
+	 font-size: 4rem;
+	 font-weight: 500;
+}
+ #s-experience .grid-layout h2 span {
+	 color: #986dff;
+}
+ #s-experience .grid-layout #experience {
+	 margin-top: 32px;
+	 display: flex;
+	 gap: 40px;
+}
+ @media screen and (max-width: 1200px) {
+	 #s-experience .grid-layout #experience {
+		 flex-wrap: wrap;
+	}
+}
+ #s-experience .grid-layout #experience .option-experience {
+	 display: flex;
+	 width: 25%;
+	 flex-direction: column;
+}
+ @media screen and (max-width: 1200px) {
+	 #s-experience .grid-layout #experience .option-experience {
+		 width: 100%;
+	}
+}
+ #s-experience .grid-layout #experience .option-experience .activeExperience {
+	 border-left: 4px solid #986dff;
+	 color: #986dff;
+}
+ #s-experience .grid-layout #experience .option-experience .activeExperience h3 {
+	 font-weight: 600;
+}
+ #s-experience .grid-layout #experience .option-experience > div {
+	 padding: 24px 32px;
+	 text-align: left;
+	 background-color: #040615;
+	 border-left: 4px solid #040615;
+}
+ #s-experience .grid-layout #experience .option-experience > div:hover {
+	 cursor: pointer;
+}
+ #s-experience .grid-layout #experience .option-experience > div h3 {
+	 font-size: 1.8rem;
+	 font-weight: 400;
+}
+ #s-experience .grid-layout #experience .text-experience {
+	 width: 75%;
+}
+ @media screen and (max-width: 1200px) {
+	 #s-experience .grid-layout #experience .text-experience {
+		 width: 100%;
+	}
+}
+ #s-experience .grid-layout #experience .text-experience > div {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+}
+ @media screen and (max-width: 1200px) {
+	 #s-experience .grid-layout #experience .text-experience > div {
+		 flex-wrap: wrap;
+		 gap: 32px;
+	}
+}
+ #s-experience .grid-layout #experience .text-experience > div h4 {
+	 font-size: 2.4rem;
+	 font-weight: 400;
+}
+ #s-experience .grid-layout #experience .text-experience > div p {
+	 font-size: 1.8rem;
+	 color: #c6c6c6;
+}
+ #s-experience .grid-layout #experience .text-experience h5 {
+	 font-size: 2rem;
+	 margin: 32px 0px;
+	 font-weight: 500;
+	 color: #986dff;
+}
+ #s-experience .grid-layout #experience .text-experience p {
+	 font-size: 2rem;
+	 line-height: 160%;
+	 color: #c6c6c6;
+	 font-weight: 400;
+}
+.grid-layout {
+  max-width: 1140px;
+  margin: 0 auto;
+}
